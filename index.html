@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Divyang Care-Attics</div>
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#accounts">Accounts</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Membership Management</h1>
+            <form id="membership-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="membership-id">Membership ID:</label>
+                <input type="text" id="membership-id" required>
+                <label for="joining-date">Joining Date:</label>
+                <input type="date" id="joining-date" required>
+                <button type="submit">Generate Certificate</button>
+            </form>
+            <div id="certificate" class="certificate">
+                <!-- Certificate content will be displayed here -->
+            </div>
+            <h2>Members List</h2>
+            <ul id="members-list">
+                <!-- List of members will be displayed here -->
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Divyang Care-Attics</p>
+        <p>Address: Shri KJ Polytechnic, Near Bholav, Bharuch</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
